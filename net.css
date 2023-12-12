@@ -1,0 +1,246 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+.main{
+    background-image: url(newbanner.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 35px;
+}
+nav img{
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height:87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:0,30px;
+    position: relative;
+}
+.hero> :first-child{ /*greater than 1st child of every div */
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.line{
+    height: 7px;
+    background-color: rgb(60, 59, 59);
+    z-index: 50;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-one {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-oftwo {
+    background-color: red;
+    color: white;
+}
+.main input{
+    padding:3px,30px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 0.35rem;
+    background-color: rgb(23,23,23,0.2);
+    /* border: 1px solid rgba(23,23,23,0.7); */
+}
+.main input::placeholder{
+    font-size:small;
+    font-weight: bold;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    height: 87%;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-image{
+    position: relative;
+}
+.section-image img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+.hero-buttons {
+    margin-top:15px;
+    margin-right: 16px;
+}
+nav{
+    max-width: 90vw;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqs {
+    background: black;
+    color: white;
+    padding: 31px;
+    margin-bottom: 25px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 24px;
+    max-width: 150vw;
+    margin: 55,auto;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+.faqbox2{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center ;
+    background-color:transparent;
+    padding: 24px;
+    max-width: 150vw;
+    margin: 55,auto;
+    margin-top: 20px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+.fqbtn {
+    padding: 20px 30px;
+    font-weight: 400;
+    color: white;
+    background-color:red;
+    margin-left: 8px;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.fqbtn-fqbtn-one {
+    background-color: red;
+    color: white;
+}
+.faqbox2 input{
+    margin-top: 20px;
+    padding: 19px 30px;    
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0.35rem;
+    background-color: rgb(23,23,23,0.2);
+    /* border: 1px solid rgba(23,23,23,0.7); */
+}
+.faqbox2 h2{
+    color: white;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    padding: 30px;
+    height: fit-content;
+}
+
+footer .questions {
+    padding: 16px;
+    font-weight: bolder;
+    font-size: large;
+}
+.footer {
+    margin-top: 5px;
+}
+
+
+.foot-panel2 {
+    background-color: transparent;
+    color: #f3f3f3;
+    height: 300px;
+    display: flex;
+    padding-left: 46x;
+    padding-right: 60px;
+    justify-content: space-between;
+
+}
