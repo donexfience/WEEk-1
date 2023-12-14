@@ -9,6 +9,7 @@
 body{
     background-color:white;
 }
+/* nav styles begin */
 .nav{
     height: 50px;
     display: flex;
@@ -88,6 +89,8 @@ color: black;
     justify-content: center;
     align-items: center;
 }
+/*nav bar style end  */
+/* side bar styles start */
 .sidebar{
     width: 300px;
     height: 100vh;
@@ -96,6 +99,7 @@ color: black;
     overflow: scroll;
     position: fixed;
 }
+/*to hide scrollbar  */
 .sidebar::-webkit-scrollbar{
     display: none;
 }
@@ -113,7 +117,7 @@ color: black;
     font-size: 16px;
     color: black;
 }
-
+/* horizondal line */
 .line{
     height: 2px;
     width: 200px;
@@ -140,6 +144,7 @@ color: black;
 .show-mores a{
     background-color: 1px solid red;
 }
+/* sidebar you section */
 .You{
     margin-top: 25px;
 }
@@ -179,6 +184,7 @@ color: black;
     margin-top: 20px;
     font-weight: lighter;
 }
+/* sidebar descripttion */
 .description a{
     color:black;
     text-decoration: none;
@@ -198,6 +204,7 @@ button:hover{
     color: white;
 
 }
+/* main body */
 .main-content{
     height: 100%;
     width: 100%;
@@ -206,6 +213,7 @@ button:hover{
     margin-left: 250px;
     position:relative;
 }
+/* line one button */
 button {
     justify-content: space-between;
     margin: 7px;
@@ -232,6 +240,7 @@ button {
     margin-top: 7px;
     margin-left: 20px;
 }
+/*i frame for youtube video  */
 .box-1 iframe{
     border-radius: 20px;
 }
@@ -246,6 +255,7 @@ button {
     display: flex;
 
 }
+/* video profile */
 .profile-1 img{
     margin-top: 7px;
     color: black;
@@ -262,9 +272,11 @@ button {
     margin-top: 12px;
 
 }
+/* 2nd box */
 .box-1:nth-child(2) {
     margin-left: 15px;
 }
+/* 3rd box */
 .box-1:nth-child(3) {
     margin-left: 15px;
 }
